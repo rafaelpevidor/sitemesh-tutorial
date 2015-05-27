@@ -1,0 +1,31 @@
+#pnl-login {
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 500px;
+}
+
+#content-container {
+	margin: 0px 0px 0px 5px;
+	height: 500px;
+}
+
+#sidebar {
+	background-color: #fafbfc;
+}
+
+#user-content {
+	padding: 40px 15px;
+  	text-align: center;
+}
+
+header {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+footer {
+	padding: 15px 15px 30px 15px;
+	margin: 5px 5px 0px 5px;
+	background-color: #eee;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+  
+  <decorator name="main" page="main-layout.jsp">
+    <pattern>/app/*</pattern><!-- Qualquer página do diretório app será decorada com mainlayout.jsp -->
+  </decorator>
+
+  <decorator name="user" page="user-layout.jsp">
+    <pattern>/app/myaccount.jsp</pattern><!-- Qualquer página do diretório user será decorada com userlayout.jsp -->
+  </decorator>
+  
+  <excludes>
+  	<pattern>/app/about.jsp</pattern>
+  </excludes>
+  
+</decorators>
